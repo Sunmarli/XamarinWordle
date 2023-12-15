@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinWordle.App">
     <Application.Resources>
-
+        <!-- Colors -->
+        <Color x:Key="BackgroundDark">#251F26</Color>
+        <Color x:Key="BackgroundLight">#E4E4E4</Color>
+        <Color x:Key="DarkGray">#3C373D</Color>
+        <Color x:Key="LightGray">#514E51</Color>
+        <Color x:Key="Success">#92D65B</Color>
     </Application.Resources>
 </Application>
