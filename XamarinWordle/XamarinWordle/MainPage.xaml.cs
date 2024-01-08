@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+// MainPage.xaml.cs
+using System;
 using Xamarin.Forms;
 
 namespace XamarinWordle
@@ -13,7 +11,20 @@ namespace XamarinWordle
 		public MainPage()
 		{
 			InitializeComponent();
-			BindingContext = new MainPageViewModel();
+		}
+
+		private void StartGameButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new GamePage());
+		}
+
+		private void ModifyWordsButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new ModifyWordsPage());
+		}
+		private void AddWordButton_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new AddWordPage());
 		}
 	}
 }

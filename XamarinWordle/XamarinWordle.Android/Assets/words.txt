@@ -1,0 +1,5 @@
+sky:taevas
+milk:piim
+potato:kartul
+cheese:juust
+bread:sai

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- ModifyWordsPage.xaml -->
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinWordle.ModifyWordsPage">
+
+    <StackLayout>
+        <Label Text="Modify Words" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+        <Entry x:Name="wordEntry" Placeholder="Enter Word" />
+        <Entry x:Name="translationEntry" Placeholder="Enter Translation" />
+
+        <Button Text="Modify" Clicked="ModifyButton_Clicked" />
+    </StackLayout>
+
+</ContentPage>

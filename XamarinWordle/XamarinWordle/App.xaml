@@ -9,5 +9,11 @@
         <Color x:Key="DarkGray">#3C373D</Color>
         <Color x:Key="LightGray">#514E51</Color>
         <Color x:Key="Success">#92D65B</Color>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="24" />
+            </Style>
+            <!-- Add other styles for different text elements if needed -->
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
